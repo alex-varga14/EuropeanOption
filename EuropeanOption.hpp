@@ -1,4 +1,8 @@
+#include <iostream>
+#include <cstring>
+#include <string>
 
+using namespace std;
 
 class EuropeanOption 
 {
@@ -21,6 +25,7 @@ class EuropeanOption
 	double T; 	// Expiry Date
 	double U; 	// Current Underlying Price
 	double b; 	// Cost of carry
+	double N = 1;
 	
 	string optType; 	// Option name - call or put
 	
