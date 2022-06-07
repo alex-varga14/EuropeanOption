@@ -1,3 +1,6 @@
+#ifndef EUROPEANOPTION_HPP
+#define EUROPEANOPTION_HPP
+
 #include <iostream>
 #include <cstring>
 #include <string>
